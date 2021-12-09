@@ -1,0 +1,54 @@
+.caro {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    width: 55%;
+    display: block;
+    margin: 2% auto;
+}
+.items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px;
+    display: flex;
+}
+
+.slick-slide {
+    margin: 10px
+}
+
+.slick-slide img {
+    width: 100%;
+    border: 0px solid #fff
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* .nav {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+} */
+#myNav {
+    background-color: yellow;
+}
+.nav-link {
+    color: black;
+}
+.card {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+@media (min-width: 768px) {  
+ .card {
+     width: 10rem;
+ }
+}
+@media (max-width: 1920px) { 
+ .card { 
+     width: 18rem;
+ }
+}
